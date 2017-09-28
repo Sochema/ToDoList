@@ -1,7 +1,7 @@
 <?php include("template/header.php"); ?>
 
 <div class="addbutton btn">
-  <a href="formcreateproject.php">ADD A PROJECT</a>
+  <a href="formcreate.php">ADD A PROJECT</a>
 </div>
 
 <div class="container">
