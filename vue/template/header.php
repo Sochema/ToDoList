@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cinzel|Frijole|Lobster|Zilla+Slab+Highlight" rel="stylesheet">
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="../css/normalize.css">
@@ -22,8 +23,8 @@
       <body>
 
         <header>
-          <nav>
-            <ul>
+          <nav id="navbar">
+            <ul id="nav">
               <li><a href="#">SIGN IN</a></li>
               <li><a href="#">LOG IN</a></li>
             </ul>

@@ -11,23 +11,8 @@ if (isset($_POST['title'], $_POST['status'], $_POST['description'])){
   $status = htmlspecialchars($_POST['status']);
   $description = htmlspecialchars($_POST['description']);
 
- insertProject($title, $status, $description);
+  insertProject($title, $status, $description);
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 include"../vue/formcreateVue.php";

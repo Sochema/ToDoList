@@ -1,7 +1,7 @@
 <?php include("template/header.php"); ?>
 
 <form class="" action="" method="post">
-  
+
 <p>Title:</p>
 <input type="text" name="title" value="">
 <p>Status:</p>
