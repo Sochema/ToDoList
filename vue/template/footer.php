@@ -1,18 +1,14 @@
 <footer>
-  <div class="footer1 col-md-3 col-sm-6 paddingtop-bottom">
+  <div class="footer1 col-md-6 col-sm-6 paddingtop-bottom">
       <p class="heading7">GENERAL LINKS</p>
         <ul class="footer-ul">
           <li><a href="#"> Career</a></li>
           <li><a href="#"> Privacy Policy</a></li>
           <li><a href="#"> Terms  Conditions</a></li>
-          <li><a href="#"> Client Gateway</a></li>
-          <li><a href="#"> Ranking</a></li>
-          <li><a href="#"> Case Studies</a></li>
-          <li><a href="#"> Frequently Ask Questions</a></li>
         </ul>
       </div>
 
-  <div class="footer1 col-md-3 col-sm-6 paddingtop-bottom">
+  <div class="footer1 col-md-6 col-sm-6 paddingtop-bottom">
       <p>Social Network</p>
       <div class="socialnetwork">
         <a href="#"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
@@ -26,9 +22,25 @@
 
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+      <!-- Initialize Bootstrap functionality -->
+       <script>
+       // Initialize tooltip component
+       $(function () {
+         $('[data-toggle="tooltip"]').tooltip()
+       })
+
+      // Initialize popover component
+       $(function () {
+         $('[data-toggle="popover"]').popover()
+       })
+       </script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+   
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

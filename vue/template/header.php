@@ -10,9 +10,14 @@
         <link rel="icon" href="favicon.ico" />
         <!-- Fontawesome Link-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cinzel|Frijole|Lobster|Zilla+Slab+Highlight" rel="stylesheet">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">     
+
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="../css/normalize.css">
@@ -30,7 +35,7 @@
             </ul>
           </nav>
 
-          <h1>TITRE</h1>
+          <h1><a href="index.php">TITRE</a></h1>
         </header>
 
         <hr>
